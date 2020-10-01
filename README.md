@@ -2,12 +2,12 @@
  Online T8 | Front-end | 2020 | Semana 5 | Projeto II - To do List
  # Diretrizes do Projeto 2 - To Do List
 
-**O projeto será em dupla.**
+**O projeto será individual.**
 Consiste em criar uma **"lista de tarefas"** para organizar e priorizar tarefas.
-Tem como objetivo exercitar os conhecimento adquiridos em HTML, CSS, Javascript e lógica.
+Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascript e lógica**.
 - Terá 1 página.
 - A página deve funcionar em todos os dispositivos (desktop, tablet e celular).
-- Não é permitido o uso de Jquery ou nenhuma outra biblioteca/framework.
+- **Não é permitido** o uso de Jquery ou nenhuma outra biblioteca/framework.
 - O layout deve ser seguido.
 
 --------------
