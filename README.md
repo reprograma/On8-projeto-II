@@ -26,9 +26,8 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 - **Fase 4**	
     - Não permitir que um item seja adicionado se só tiver espaços e nenhum texto no input
 - **Fase 5: BÔNUS**
-    - Editar tarefa
     - Adicionar etiqueta à tarefa
-    - Botão "Remover Completos" (quando clicado, ele remove somente as tarefas com "check")
+
 
 --------------
 
@@ -37,8 +36,8 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 - **07/10:** Dúvidas;
 - **09/10:** 
     - Finalização do projeto
-    - **[PRAZO DE ENTREGA]** Desenvolvimento de projeto, até 23h59.
-    - Subir no GitHub de ambas as alunas.
+    - **[PRAZO DE ENTREGA]** Desenvolvimento de projeto, até 23h59 através do pull request.
+    
 
 --------------
 
