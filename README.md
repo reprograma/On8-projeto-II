@@ -12,6 +12,8 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 
 --------------
 ## INSTRUÇÕES 
+
+http://dontpad.com/todolistprojeto
 - Fazer fork do repositório
 - Clonar
 - Abrir no computador 
