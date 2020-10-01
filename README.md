@@ -11,6 +11,15 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 - O layout deve ser seguido.
 
 --------------
+## INSTRUÇÕES 
+- Fazer fork do repositório
+- Clonar
+- Abrir no computador 
+-
+
+**OBS: HTML e CSS base para o projeto já está prontinho para ser usado ** 
+
+--------------
 
 ## FASES
 - **Fase 1**
