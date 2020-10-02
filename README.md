@@ -50,12 +50,6 @@ http://dontpad.com/todolistprojeto
     - **[PRAZO DE ENTREGA]** Desenvolvimento de projeto, até 23h59 através do pull request.
     
 
---------------
 
-## RECURSOS
-- Font: Open Sans
-- Cores #e0c3fc, #8ec5fc, #ba7af8
-- Layout: projeto.png
 
--------------
 
