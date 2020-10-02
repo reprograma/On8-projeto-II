@@ -1,6 +1,6 @@
 # On8-projeto-II
- Online T8 | Front-end | 2020 | Semana 5 | Projeto II - To do List :page_facing_up: :pencil2:
- # Diretrizes do Projeto 2 - To Do List
+ Online T8 | Front-end | 2020 | Semana 5 | Projeto II - To do List 
+ # Diretrizes do Projeto 2 - To Do List :page_facing_up: :pencil2:
 
 **O projeto será individual.**
 Consiste em criar uma **"lista de tarefas"** para organizar e priorizar tarefas.
