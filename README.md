@@ -1,7 +1,6 @@
 # On8-projeto-II
  Online T8 | Front-end | 2020 | Semana 5 | Projeto II - To do List 
  # Diretrizes do Projeto 2 - To Do List :page_facing_up: :pencil2:
- <iframe src="https://giphy.com/embed/Rh5fexdh1Fpy4p13Ae" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rickandmorty-season-1-adult-swim-rick-and-morty-Rh5fexdh1Fpy4p13Ae">via GIPHY</a></p>
 
 **O projeto será individual.**
 Consiste em criar uma **"lista de tarefas"** para organizar e priorizar tarefas.
