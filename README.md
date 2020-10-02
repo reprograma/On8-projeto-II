@@ -1,5 +1,5 @@
 # On8-projeto-II
- Online T8 | Front-end | 2020 | Semana 5 | Projeto II - To do List
+ Online T8 | Front-end | 2020 | Semana 5 | Projeto II - To do List :page_facing_up: :pencil2:
  # Diretrizes do Projeto 2 - To Do List
 
 **O projeto será individual.**
