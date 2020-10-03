@@ -21,15 +21,9 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 --------------
 ## INSTRUÇÕES :loudspeaker:
 
+- Fazer fork e clone
 
-
-
-- Fazer fork do repositório
-- Clonar
-- Abrir no computador 
-
-
-**OBS: HTML e CSS base para o projeto já está prontinho para ser usado ** 
+**OBS: HTML e CSS base para o projeto já está prontinho para ser usado e não pode ser modificado** 
 
 --------------
 
