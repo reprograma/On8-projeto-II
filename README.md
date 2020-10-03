@@ -43,6 +43,7 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
     - Não permitir que um item seja adicionado se só tiver espaços e nenhum texto no input
 - **Fase :five: : BÔNUS**
     - Adicionar etiqueta à tarefa
+    - Poder retirar o check dos seus itens 
 
 
 --------------
