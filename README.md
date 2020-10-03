@@ -51,7 +51,7 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 - **07/10:** Dúvidas;
 - **09/10:** 
     - Finalização do projeto
-    - **[PRAZO DE ENTREGA]** Desenvolvimento de projeto, até 23h59 através do pull request.
+    - **[PRAZO DE ENTREGA]** até 23h59 através do pull request.
     
 
 
