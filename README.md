@@ -57,6 +57,7 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
  
  ## Estudos:
  :pushpin: [Diferença entre innerHTML, innerText e textContent](https://www.mundojs.com.br/2019/07/18/diferencas-entre-innerhtml-innertext-e-textcontent/)
+ :pushpin: [Input x Button](http://devfuria.com.br/html-css/botoes-button-submit-reset/)
 
 
 
