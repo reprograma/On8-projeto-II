@@ -13,6 +13,9 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 :pushpin: [To Do List](https://projeto-todo-list-reprograma.netlify.app/)
 
 
+:pushpin: [Para revisar a aula de DOM](https://github.com/gabriellivenerando/On8-javascript-i)
+
+
 :pushpin: [Deixe suas dúvidas aqui - Don't Pad](http://dontpad.com/todolistprojeto)
 
 --------------
