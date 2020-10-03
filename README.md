@@ -22,7 +22,7 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 ## INSTRUÇÕES :loudspeaker:
 
 - Fazer fork e clone
-- Trocar nome da pasta **meu-nome-e** pelo o **seu nome ex: gabrielli-venerando**
+- Trocar nome da pasta **"meu-nome-e"** pelo o **seu nome ex: "gabrielli-venerando"**
 
 **OBS: HTML e CSS base para o projeto já está prontinho para ser usado e não pode ser modificado** 
 
