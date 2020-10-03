@@ -10,12 +10,12 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 - **Não é permitido** o uso de Jquery ou nenhuma outra biblioteca/framework.
 - O layout deve ser seguido.
 
-:pushpin: [Car Parking](https://projeto-todo-list-reprograma.netlify.app/)
+:pushpin: [To Do List](https://projeto-todo-list-reprograma.netlify.app/)
 
 --------------
 ## INSTRUÇÕES :loudspeaker:
 
-:pushpin: [Car Parking](http://dontpad.com/todolistprojeto)
+:pushpin: [Don't Pad](http://dontpad.com/todolistprojeto)
 
 
 - Fazer fork do repositório
