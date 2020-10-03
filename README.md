@@ -11,11 +11,12 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 - O layout deve ser seguido.
 
 :pushpin: [To Do List](https://projeto-todo-list-reprograma.netlify.app/)
+:pushpin: [Deixe suas dúvidas aqui - Don't Pad](http://dontpad.com/todolistprojeto)
 
 --------------
 ## INSTRUÇÕES :loudspeaker:
 
-:pushpin: [Don't Pad](http://dontpad.com/todolistprojeto)
+
 
 
 - Fazer fork do repositório
