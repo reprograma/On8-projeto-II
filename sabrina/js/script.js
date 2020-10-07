@@ -7,6 +7,7 @@ const div = document.querySelector('.todo__container');
 let alerta = document.createElement('h2');
 const formulario = document.getElementById('todoForm')
 
+
 adicionar.addEventListener('click', montarLista);
 function montarLista(e) {
     e.preventDefault();
@@ -17,7 +18,7 @@ function montarLista(e) {
     const textoInput = document.createElement('p');
     const botaoDeletar = document.createElement('button');
 
-    if (input.value === '') {
+    if (input.value === '' || input.value.match(/^(\s)+$/)) {
         alerta.textContent = 'Insira uma tarefa no campo abaixo.';
         alerta.style.textAlign = 'center'
         alerta.style.color = 'purple'
@@ -26,6 +27,9 @@ function montarLista(e) {
 
         div.appendChild(alerta);
         alerta = div.insertBefore(alerta, formulario)
+
+        input.value = null
+
     }
 
     else {
@@ -39,12 +43,16 @@ function montarLista(e) {
 
         itemLista.classList.add('todo__task-list')
 
-        textoOption.textContent = `${option.value}`
-        textoInput.textContent = `${input.value}`
-        botaoDeletar.textContent = 'X';
+        textoOption.textContent = option.value
+        textoInput.textContent = input.value
+        botaoDeletar.textContent = '🗑️';
+
+        textoOption.style.width = '40%'
+        textoOption.style.textAlign = 'center'
+        textoOption.style.borderRight = '2px solid purple'
         botaoDeletar.style.cursor = 'pointer'
-        botaoDeletar.style.backgroundColor = 'purple'
-        botaoDeletar.style.color = 'white'
+        botaoDeletar.style.backgroundColor = 'white'
+        botaoDeletar.style.border = 'none'
 
         botaoDeletar.addEventListener('click', function () {
             lista.removeChild(itemLista)
@@ -60,10 +68,8 @@ function montarLista(e) {
         }
 
         limpar.addEventListener('click', function(){
-            lista.removeChild(itemLista)
-            console.log(itemLista)
+            lista.innerHTML = ''
         })
-
         
     }
 }
