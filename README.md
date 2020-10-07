@@ -51,7 +51,7 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 ## :calendar: CRONOGRAMA
 - **03/10:** Início;
 - **07/10:** Dúvidas;
-    - :pushpin: [Netlify](https://www.netlify.com/)
+    :pushpin: [Netlify](https://www.netlify.com/)
 - **09/10:** 
     - Finalização do projeto
     - **[PRAZO DE ENTREGA]** até 23h59 através do pull request.
