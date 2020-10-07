@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 10px; 
+    height: 654px;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; 
+}
+
+.todo__container {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 30rem;
+    padding: 2rem 0; 
+}
+
+.todo__title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem; 
+}
+
+.todo-form__input {
+    width: 100%;
+    padding: 1rem;
+    width: 93%;
+    padding: 1rem;
+    display: flex;
+    margin: auto; 
+}
+
+.options__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    cursor: pointer;
+    border: none;
+    width: 90%;
+    border-radius: 5px;
+    color: black;
+    padding: 4px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #ba7af8;
+}
+
+select > option {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tag {
+    font-weight: bold;
+    color: #ba7af8;
+}
+
+.todo-form__btn {
+    background-color: purple;
+    text-transform: uppercase;
+    color: white;
+    width: 50%;
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer; 
+}
+
+.todo-form__btn:hover {
+    background-color: lightslategray; 
+}
+
+.todo__task-list {  
+    padding: 0; 
+}
+
+.todo__task-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1rem;
+    list-style: none;
+    padding-left: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.todo__task-list li .checked {
+    color: #ccc;
+    text-decoration: line-through; 
+}
+
+.todo__task-list li:hover {
+    border: 1px dashed #ccc;
+}
+
+.todo__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo__btn-container button {
+    padding: 0.7rem;
+    margin: 0.5rem 1rem;
+    border-color: #ecc4ff;
+    border-radius: 14.5px;
+    background-color: #ecc4ff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+
