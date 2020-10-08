@@ -46,7 +46,7 @@ function montarLista(event) {
         const botaoMarcar = document.getElementById('todoMarkAll');
         botaoMarcar.addEventListener('click', function(){
             p.classList.toggle('checked');
-
+            etiqueta.classList.toggle('checked');
         });
 
         //REMOVER TODOS OS ITENS
