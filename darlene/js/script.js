@@ -68,7 +68,8 @@ function toDoList(e){
     element.style.marginRight = '1rem'
     inputElement.type = 'checkbox' // criou a caixa de seleção
     inputElement.style.margin = '1.2rem 1rem 0 0'; // style
-
+    p_element.style.color ='#2e203b';
+    tag_element.style.color = '#805da0';
     //------------------------------------------------------
 
 

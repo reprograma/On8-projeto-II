@@ -17,29 +17,39 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem; 
+    
 }
 
 .todo__container {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     width: 100%;
     max-width: 30rem;
     padding: 2rem 0; 
+    border-radius: 1rem ;
+    box-shadow: 5px 4px 20px #ce8e8b;
 }
 
 .todo__title {
     text-align: center;
     margin: 0;
     margin-bottom: 2rem; 
+    color: #2e203b;
+    
 }
 
 .todo-form__input {
-    width: 100%;
-    padding: 1rem;
-    width: 93%;
+    width: 93% ;
     padding: 1rem;
     display: flex;
     margin: auto; 
+    border:  solid  #d1b6ec;
+    outline: none;
+    border-radius: 10px 20px;
+}
+
+.todo-form__input:hover{
+    box-shadow: 6px 2px 10px -6px #d6bab9;
 }
 
 .options__container {
@@ -59,12 +69,15 @@ select {
     border: none;
     width: 90%;
     border-radius: 5px;
-    color: black;
+    color:#37244b;
     padding: 4px;
     font-size: 14px;
     background-color: #ffffff;
-    border: 1px solid #ba7af8;
+    border: 0.1rem solid #ba7af8;
+    border-radius: .5rem;
 }
+
+
 
 select > option {
     text-align: center;
@@ -77,19 +90,23 @@ select > option {
 }
 
 .todo-form__btn {
-    background-color: purple;
+    background-color: rgb(128, 35, 128);
     text-transform: uppercase;
-    color: white;
-    width: 50%;
+    color: rgb(255, 255, 255);
+    width: 46%;
     display: inline-block;
     border: none;
     font-weight: bold;
     padding: 1rem;
     cursor: pointer; 
+    border-radius: .5rem;
+    outline: none;
 }
 
 .todo-form__btn:hover {
-    background-color: lightslategray; 
+    background-color: rgb(231, 166, 216); 
+    box-shadow: 6px 4px 14px -6px #9e6d6c;
+    
 }
 
 .todo__task-list {  
@@ -97,7 +114,7 @@ select > option {
 }
 
 .todo__task-list li {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(204, 204, 204);;
     padding: 0.5rem;
     font-size: 1rem;
     list-style: none;
@@ -108,12 +125,16 @@ select > option {
 }
 
 .todo__task-list li .checked {
-    color: #ccc;
+    color: rgb(204, 204, 204);
     text-decoration: line-through; 
 }
 
 .todo__task-list li:hover {
-    border: 1px dashed #ccc;
+    border: 1px dashed rgb(204, 204, 204);;
+}
+
+.todo__all-done, .todo__remove-all{
+    color: #382549;
 }
 
 .todo__btn-container {
@@ -123,13 +144,22 @@ select > option {
 }
 
 .todo__btn-container button {
+    width: 42%;
     padding: 0.7rem;
     margin: 0.5rem 1rem;
-    border-color: #ecc4ff;
-    border-radius: 14.5px;
+    border-radius: .5rem;
     background-color: #ecc4ff;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    outline: none;
+    border: none;
+    
 } 
+
+.todo__btn-container button:hover{
+    background-color: rgb(231, 166, 216); 
+    color: rgb(255, 255, 255);
+    box-shadow: 6px 4px 14px -6px #9e6d6c;
+}
 
