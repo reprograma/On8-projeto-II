@@ -28,6 +28,7 @@ botaoAdd.addEventListener('click', montarLista)
 function montarLista(event) {
     event.preventDefault();
 
+    //AVISO DE INPUT VAZIO
     if (input.value === ""){
         alert('Por favor, preencha o input!')
     }
@@ -41,17 +42,20 @@ function montarLista(event) {
         item.appendChild(p); 
         document.querySelector('#todoInput').value= '';
 
+        //MARCAR TODOS OS ITENS
         const botaoMarcar = document.getElementById('todoMarkAll');
         botaoMarcar.addEventListener('click', function(){
-            p.classList.add('checked');
+            p.classList.toggle('checked');
 
         });
 
+        //REMOVER TODOS OS ITENS
         const botaoApagar = document.getElementById('todoRemoveAll');
         botaoApagar.addEventListener('click', function (){
             lista.removeChild(item);
         });
 
+        //SELECIONAR ITENS INDIVIDUALMENTE
         const tag = document.getElementById('tag');
         const etiqueta = document.createElement('p');
         etiqueta.textContent = tag.value;
@@ -63,6 +67,7 @@ function montarLista(event) {
 
         });
 
+        //APAGAR ITENS INDIVIDUALMENTE
         const apagar = document.createElement('span')
         item.appendChild(apagar)
         apagar.textContent = '🗑️';
