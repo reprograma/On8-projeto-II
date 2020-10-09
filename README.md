@@ -30,20 +30,20 @@ Tem como objetivo exercitar os conhecimento adquiridos em **HTML, CSS, Javascrip
 
 ## FASES
 - **Fase :one:**
-    - Adicionar itens na lista
-    - Poder dar check neles
-    - Validar campo de texto para não entrar itens vazios
-    - Limpar campo de texto depois que insere o item na lista
+    - Adicionar itens na lista ✔️
+    - Poder dar check neles ✔️
+    - Validar campo de texto para não entrar itens vazios ✔️
+    - Limpar campo de texto depois que insere o item na lista ✔️
 - **Fase :two:**
-    - Poder excluir itens da lista individualmente;
+    - Poder excluir itens da lista individualmente; ✔️
 - **Fase :three:**
-    - Marcar todos os itens como feito
-    - Limpar lista, excluir todos os itens da lista
+    - Marcar todos os itens como feito ✔️
+    - Limpar lista, excluir todos os itens da lista ✔️
 - **Fase :four:**	
-    - Não permitir que um item seja adicionado se só tiver espaços e nenhum texto no input
+    - Não permitir que um item seja adicionado se só tiver espaços e nenhum texto no input ✔️
 - **Fase :five: : BÔNUS**
-    - Adicionar etiqueta à tarefa
-    - Poder retirar o check dos seus itens 
+    - Adicionar etiqueta à tarefa ✔️
+    - Poder retirar o check dos seus itens ✔️
 
 
 --------------
