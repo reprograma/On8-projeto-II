@@ -58,4 +58,5 @@ function setList(e){
             list.remove(item);
         });
     }
+    
 }
