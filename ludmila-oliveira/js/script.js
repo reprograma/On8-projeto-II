@@ -8,6 +8,9 @@
 // replace(/[0-9]/g, '')); remove apenas números
 // replace(/[^0-9]/g, '')); admite apenas números
 
+
+// ---------------------EXERCICIO------------------------
+
 let submit = document.getElementById('todoSubmit');
 let catchValue = document.getElementById('todoInput');
 let listMother = document.getElementById('todoList');
@@ -43,12 +46,9 @@ function toDoList(e) {
         list_element.append(input_element, p_element, tag_element); //Cria mais de um filho:neste caso um "input" e 2 textos das ("li" e "tag")
         
 
-        //ADICIONANDO ESTILO PELO JS----------------------------------------
+        //ADICIONANDO ESTILO PELO JS (DESAFIO PROPOSTO PELO EXERCICIO----------------------------
 
-        list_element.style.marginRight = '1rem'
-        list_element.style.textAlign = 'left'
-        input_element.style.margin = '1.2rem 1rem 0 0';
-        input_element.style.marginTop = '1.2rem'
+        input_element.style.margin = '.2rem 1rem 0 0';
 
         // ------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ function toDoList(e) {
 
 
 
-
+// LINKS PARA ESTUDO ABAIXO --------------------------
 
 // https://pt.stackoverflow.com/questions/114622/fun%C3%A7%C3%A3o-em-javascript-para-desmarcar-limpar-todas-as-checkboxes-selecionadas-a-pa
 
