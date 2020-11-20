@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box; 
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/background.png) no-repeat;
+    background-size: cover;
+
+    font-family:'Nunito', sans-serif;
+    font-size: 10px; 
+}
+
+.container {
+    min-height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem; 
+}
+
+.todo__container {
+    background-color: rgb(204, 250, 246);
+
+    border-radius: 10rem;
+
+    margin: 0 auto;
+    padding: 2rem 0; 
+
+    width: 40rem;
+}
+
+.todo__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+
+    margin: 0;
+    margin-bottom: 2rem; 
+}
+
+.todo-form__input {
+    font-size: 1rem;
+
+    padding: 1rem;
+    margin: auto; 
+
+    border-radius: .5rem;
+    border: none;
+    
+    width: 80%;
+
+    display: flex;
+}
+
+.options__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 1rem;
+}
+
+select {
+    cursor: pointer;
+    border: none;
+    border-radius: .5rem;
+
+    width: 13rem;
+    
+    color: rgb(0, 0, 0);
+    background-color: (255, 255, 255);
+
+    padding: .4rem;
+
+    font-size: .9rem;
+}
+
+.todo-form__btn {
+    background-color: rgb(0, 77, 128);
+    color: rgb(255, 255, 255);
+
+    text-transform: uppercase;
+    font-weight: 400;
+
+    width: 13rem;
+
+    display: flex;
+    justify-content: center;
+    
+    border-radius: .5rem;
+    border: none;
+
+    padding: .5rem;
+
+    cursor: pointer; 
+}
+
+.todo-form__btn:hover {
+    background-color: rgb(122, 173, 223); 
+}
+
+.todo__task-list {  
+    margin: auto;
+
+    width: 90%;
+}
+
+.todo__task-list li {
+    border-bottom: 1px solid rgb(68, 147, 179);
+
+    padding: 0.5rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+
+    font-size: 1rem;
+    
+    list-style: none;
+    
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: space-between; 
+}
+
+.todo__task-list li:hover {
+    border: 1px dashed rgb(122, 178, 185);
+}
+
+.todo__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 70%;
+
+    margin: auto;
+}
+
+.todo__btn-container button {
+    background-color: rgb(0, 77, 128);
+    color: rgb(255, 255, 255);
+
+    text-transform: uppercase;
+    font-weight: 400;
+
+    width: 9rem;
+
+    display: flex;
+    justify-content: center;
+    
+    border-radius: .5rem;
+    border: none;
+
+    padding: .5rem;
+    margin-top: 2rem;
+
+    cursor: pointer; 
+} 
+
+.todo__remove-all:hover, .todo__all-done:hover {
+    background-color: rgb(122, 173, 223); 
+}
